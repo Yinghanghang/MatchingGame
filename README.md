@@ -9,4 +9,5 @@ e.g. python matchit.py green SJSUimages -f
 
 The score stays at 100 while the player flips the first 13 pairs of tiles.  For each additional pair of tiles flipped, the player will lose 10 points.
 
-<img width="452" alt="Screen Shot 2023-04-12 at 1 38 38 PM" src="https://user-images.githubusercontent.com/71808318/231579081-b79b949f-abb5-4bbd-a7f6-80146967b935.png">
+<img width="451" alt="Screen Shot 2023-04-12 at 1 42 04 PM" src="https://user-images.githubusercontent.com/71808318/231580004-f733f991-a082-4b36-8f49-88b5a8344303.png">
+
