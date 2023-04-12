@@ -61,7 +61,7 @@ class MatchGame(object):
 
         # instance variables
         self.score = 100  # player's score
-        self.delay = 1000 if delay else 3000  # flip delay
+        self.delay = 1000 if delay else 9000  # flip delay
         self.color = player_color  # user defined color
 
         # Create a list containing the valid image names
@@ -117,8 +117,7 @@ class MatchGame(object):
             for y in range(0, 448, 112):
                 # Create the tiles with an assigned image in the tag
                 self.canvas.create_rectangle(x, y, x + 112, y + 112,
-                                             fill='yellow',
-                                             outline=self.color,
+                                             fill='white',
                                              tags=self.image_names[index])
                 index += 1
 
