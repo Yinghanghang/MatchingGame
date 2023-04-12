@@ -61,7 +61,7 @@ class MatchGame(object):
 
         # instance variables
         self.score = 100  # player's score
-        self.delay = 1000 if delay else 9000  # flip delay
+        self.delay = 1000 if delay else 3000  # flip delay
         self.color = player_color  # user defined color
 
         # Create a list containing the valid image names
