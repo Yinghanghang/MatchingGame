@@ -1,6 +1,6 @@
 # MatchingGame
 
-Tools: Python, Pygame
+Tools: Python, tkinter
 
 The aim of the game is to find all the pairs with the fewest tries.
 The user will start the program from a terminal window and specify the following command line arguments:
